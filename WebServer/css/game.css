@@ -1,0 +1,101 @@
+html {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.user {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    right: 4%;
+    bottom: 10%;
+    border-radius: 50%;
+    background: url("../assets/ava.jpeg");
+    background-size: cover;
+}
+
+.enemy {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    right: 4%;
+    top: 10%;
+    border-radius: 50%;
+    background: url("../assets/ava.jpeg");
+    background-size: contain;
+}
+
+.card {
+    height: 200px;
+    width: 120px;
+}
+
+.h1 {
+    color: #586608;
+}
+
+body {
+    background: url("https://i.imgur.com/3m6WqN5.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.card.enemy-card {
+    background: url("https://lh3.googleusercontent.com/EGXUQwF6snMvJluY5_ZQnho5H1u4FDjzgdb-6Ka0OEIYkZui3NOi-uMj_XBS9qsUJol5uWk80TsrVnP5f5_Apw");
+    background-size:contain;
+}
+
+.card {
+    position: relative;
+    margin: 0 5px;
+    background-color: #70D372;
+    border-radius: 10px;
+    border: 6px solid #253324;
+    color: red;
+}
+
+.enemy-card-hand {
+    position: absolute;
+    top: 30px;
+    display: flex;
+}
+
+.my-card-hand {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card div {
+    position: relative;
+    bottom: 10px;
+}
+.waiting-msg
+{
+    color:white;
+}
+.avatar { 
+    width: 250px ;
+    height: 250px;
+    background-color: red;
+    border-radius: 50%;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLITlTnh43X4dll4lOc0G3RxVFht9Vb93qQ&usqp=CAU");
+    background-position: center;
+}
+
+.avatar-wrapper {
+    padding: 20px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 5%;
+}
